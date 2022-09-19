@@ -15,7 +15,7 @@ for (let index = 0; index < mochilaAluno.length; index++ ){
     console.log(item)
     //cria um elemento <p></p> a cada interação
     let criar = (document.createElement("p")) 
-    //dentro deste elemento criado é alterado a propriedade innerHTML com o nome do 
+    //dentro deste elemento criado é alterado a propriedade innerHTML com o nome do item
     criar.innerHTML= item
     //acrescenta como filho direto o elemento criado com os atributos constituidos
     resultado.appendChild(criar)
